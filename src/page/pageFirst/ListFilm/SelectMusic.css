@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.times{
+    display: flex;
+}
+
+.tiny-line {
+    border-bottom: 1px solid #ffffff; 
+  
+  }
+.line-animation{
+    padding-top: 35px;
+   /* padding-right: 20px; */
+   margin-left: 10px;
+   color:rgb(229 231 235);
+font-size:10.5px;
+font-weight:700;
+line-height:15.75px;
+
+
+   
+}
+.times-hot{
+    display: flex;
+    justify-content: center;
+   
+}
+.musicque{
+    
+ /* padding-top:10px ;
+ padding-left:10px; */
+ /* position:relative; */
+}
+.link-mount:hover{
+    transform: translate(-10%);
+    transition: 0.4s;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.display-music span{
+    display: block;
+    padding-left: 20px;
+}
+.truncate{
+  color: rgb(228, 218, 218);
+}
+/* .flex{
+    width: 20%;
+    padding-right: 100px;
+} */

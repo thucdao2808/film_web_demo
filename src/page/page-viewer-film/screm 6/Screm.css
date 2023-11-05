@@ -1,0 +1,139 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.separate{
+    background-color:rgb(17 24 39) ;
+    padding-top: 30px;
+}
+.selection-dowl-view{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.img-screm{
+    width: 250px;
+    height: 340px;
+}
+.intro_part-film{
+    display: block;
+}
+.demo-screm{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.content-film-screm span{
+    display: block;
+}
+
+.dowload{
+    cursor: pointer;
+    background-color:rgb(55 65 81) ;
+    border-radius: 4px;
+    margin-right: 20px;
+
+}
+.views-film-screm{
+   cursor: pointer;
+   border-radius: 4px;
+  background-color: rgb(127 29 29);
+}
+.title-film-screm{
+    color:rgb(209 213 219);
+    font-family:ui-sans-serif;
+    font-size:18px;
+    font-weight:700;
+    line-height:24px;
+    padding:0px 0px 3px;
+    text-align:left;
+    text-transform:uppercase;
+}
+.title-extra-film-screm{
+    color:rgb(156 163 175);
+    font-family:ui-sans-serif;
+    font-size:12px;
+    line-height:18px;
+    padding:0px 0px 6px;
+    text-align:left;
+    text-transform:uppercase;
+}
+.status-film,.deligion,.birth-film,.type,.performer,.country,.time-film-screm{
+    color:rgb(156 163 175);
+display:inline;
+font-size:10.5px;
+line-height:15px;
+}
+.status{
+    display: flex;
+}
+.detail-status{
+border-radius:3px;
+color:rgb(220 38 38);
+display:inline-block;
+font-size:10.5px;
+font-weight:600;
+line-height:15px;
+padding:3px 6px;
+}
+.episode{
+    color:rgb(209 213 219);
+display:inline-block;
+font-size:10.5px;
+font-weight:500;
+line-height:15px;
+margin:6px 0px;
+}
+.end-film-btn a{
+    text-decoration: none;
+    color: black;
+}
+.link-select-film{
+    background-color: burlywood;
+    width: 30px;
+    height: 20px;
+    
+background-color: (107 114 128);
+border-radius:3px;
+box-shadow:rgb(0 0 0 / 0) 0px 0px 0px 0px;
+color:rgb(255 255 255);
+display:inline-block;
+font-family:ui-sans-serif;
+font-size:9px;
+font-weight:500;
+line-height:18px;
+margin:0px 3px 3px 0px;
+padding:3px 6px;
+text-align:center;
+}
+ .tiny-line {
+    padding-top: 5px;
+    border-bottom: 1px solid #000; 
+    padding-bottom: 10px;
+
+  }
+  .intro-content-film{
+    color:rgb(209 213 219);
+    display:inline;
+    font-size:12px;
+    font-weight:700;
+    line-height:18px;
+   text-align: center;
+    padding:0px 0px 3px;
+
+  }
+  .decribe-film{
+    color:rgb(156 163 175);
+    font-family:ui-sans-serif;
+    font-size:12px;
+    line-height:18px;
+  }
+  .intro-content-film{
+   display: flex;
+   justify-content: center;
+   padding-top: 10px;
+  }
+  .decribe-film{
+    padding: 15px;
+  }

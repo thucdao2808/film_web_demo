@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form-item{
+    width: fit-content;
+    height: fit-content;
+
+    background-color:white;
+    color: red;
+    font-weight: 900;
+    border-radius: 8px;
+    margin: 10px;
+    display:inline;
+    font-family:ui-sans-serif;
+    font-size:12px;
+    line-height:15px;
+    padding: 3px 6px;
+}
+.form-item:hover{
+    background-color: #080808;
+    color: white;
+}
+.items-center{
+    display: flex;
+    align-items: center;
+  
+    width: 100%;
+    height: 50px;
+    background-color:#374151 ;
+   
+}
+.item_color{
+    animation: color-text-second 1s infinite ;
+}
+@keyframes color-text-second {
+    0%,50%,100% {
+        opacity: 1;
+    }
+    25%,75%{
+        opacity: 0;
+    }
+}

@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cate-string_product-movie{
+  padding-top: 15px;
+}
+.combine_list_movie{
+    /* width: 80%;
+    height: 100%; */
+    overflow-y: hidden;
+    overflow: hidden;
+    background-color:rgb(17 24 39) ;
+}
+.cate-string_product-movie{
+    display: grid;
+    grid-template-columns:repeat(4,0fr) ;
+}
+.cate-product-movie img{
+    width: 230px;
+    height: 270px;
+    object-fit:cover;
+   
+    border-top-right-radius:4px;
+    border-top-left-radius: 4px;
+    
+}
+.cate-product-movie{
+  
+    padding: 3px;
+    
+ 
+}
+.title_and_viewer{
+  display: flex;
+  justify-content: space-between;
+}
+.view_add{
+  width: 60px;
+  height: 15px;
+  color: black;
+  font-size: 12px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 2px;
+  margin-right: 50px;
+
+}
+.view_add a{
+  color: rgb(34, 33, 33);
+  text-decoration: none;
+  
+}
+.title-movie-theater{
+  color: white;
+}
+.cate-link-movie{
+    text-decoration: none;
+    border-radius: 10px;
+    
+  
+    
+}
+  
+  .cate-img-movie {
+    display: block;
+   
+  }
+  .list-string_product-movie{
+    display: flex;
+    
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+     
+    
+    
+  }
+  .cate-product-movie:hover{
+    transform: scale(1.1);
+    transition: 0.7s linear;
+    
+    
+  }
+  .cate-title-film {
+    display: block; 
+    background-color: rgb(31 41 55);
+    width: 230px;
+    height: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+   
+  }
+  /* -------------- */
+.col-span-10 span{
+  display: block;
+}
+.col-span-10{
+  padding-left:10px;
+}
+.link-mount{
+  display: flex;
+  text-decoration: none;
+}
+.number_click{
+  border: none;
+  outline: none;
+color: yellow;
+align-items:flex-start;
+display:inline-block;
+font-family:ui-sans-serif;
+font-size:18px;
+font-weight:600;
+
+
+}
+.truncate{
+  color:rgb(229 231 235);
+font-size:12px;
+line-height:18px;
+
+}
+.title_small{
+  color:rgb(156 163 175);
+  font-size:9px;
+  line-height:12px;
+}
+/* ------- */
+.times-hot span{
+  display: flex;
+  justify-content:space-evenly;
+}
+.flex li{
+  list-style-type: none;
+}
+.times-hot{
+  color: azure;
+}
+.line{
+ width:30px ;
+ background-color: red;
+ height: 2px;
+}

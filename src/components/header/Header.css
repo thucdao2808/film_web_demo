@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.selection_bar{
+    width: 100%;
+    background-color:#1f2937;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.logo_and_select{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+/*  logo*/
+.logo-film-studio{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+/* select */
+.list-selection-film{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-user{
+    display: flex;
+
+}
+.menu-destop{
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 500;
+    color: #f7f7f8;
+    padding-right: 58px;
+}
+.menu-destop:hover{
+   color: rgb(205, 180, 150);
+}
+/* input */
+.research-input{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.input-search-film {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+  }
+  
+  .input-film {
+    max-width: 190px;
+    height: 100%;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #53535f;
+    caret-color: #f7f7f8;
+    color: #fff;
+    padding: 7px 10px;
+    border: 2px solid transparent;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-right: 1px;
+    transition: all .2s ease;
+  }
+  
+  .input-film:hover {
+    border: 2px solid rgba(255, 255, 255, 0.16);
+  }
+  
+  .input-film:focus {
+    border: 2px solid #a970ff;
+    background-color: #0e0e10;
+  }
+  
+  .search__btn {
+    border: none;
+    cursor: pointer;
+    background-color: rgb(101, 101, 107);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 100%;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+  }
+  
+  .search__btn:hover {
+    background-color: rgba(54, 54, 56, 1);
+  }
+  /* các thể loại film */
+.all_category-films{
+    padding-top: 10px;
+}
+  .menu-destop {
+    position: relative;
+  }
+  
+  .grid-select {
+    display: none;
+    position: absolute;
+    
+    /* top: 100%;
+    left: 0; */
+    background-color: #706363;
+    border-radius: 4px;
+  
+   
+    
+
+  }
+  .grid-select .category-films{
+    list-style-type: none;
+    color: #1f2937;
+  }
+  .category-films{
+    padding-left: 20px;
+  }
+  .category-films:hover{
+    transition: 0.5s;
+    color: #fff;
+  }
+  .menu-destop:hover .grid-select {
+    display: block;
+    width: 28rem;
+    height: 10rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .router-menu{
+    color: #fff;
+  } 
+  .router-menu:hover{
+    color: #e64242;
+  }
